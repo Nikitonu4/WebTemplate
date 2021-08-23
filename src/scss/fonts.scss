@@ -1,0 +1,15 @@
+$main-font: 'Title Font', sans-serif;
+$main-font-url: url("../assets/fonts/TitleFont.otf");
+
+$second-font: 'Inter', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;900&display=swap');;
+
+@font-face{
+    font-family: $main-font;
+    src: $main-font-url format("opentype");
+}
+
+@font-face{
+    font-family: $second-font;
+    //src: $second-font-url format("opentype");
+}
